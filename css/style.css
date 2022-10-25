@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+/* 폰트 */
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url(/font/DungGeunMo.ttf) format('truetype');
+}
+
+body {
+    background: #F7971E;
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);
+    background: linear-gradient(to right, #FFD200, #F7971E);
+    font-family: 'DungGeunMo';
+}
+
+/* 헤더 */
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.header .headTitle {
+    width: 800px;
+    height: 150px;
+    background-image: url(../images/gif투명배경1.gif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .headTitle h1 {
+    font-size: 50px;
+}
+
+/* 메인페이지 */
+.mainPage {
+    width: 100%;
+    display: block;
+    padding: 20px 0;
+}
+.mainPage .bookPage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainPage .bookPage .bookClip {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+.mainPage .bookPage .bookClip img {
+    width: 200px;
+    margin-left: 50px;
+}
+.mainPage .acc1 {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    width: 200px;
+    height: 200px;
+    background-image: url(/images/finger.gif);
+    background-repeat: no-repeat;
+}
+.mainPage .acc2 {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-image: url(/images/heart.gif);
+    background-repeat: no-repeat;
+}
+.mainPage .acc3 {
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    width: 100px;
+    height: 100px;
+    background-image: url(/images/arrow1.gif);
+    background-repeat: no-repeat;
+}
+.mainPage .acc4 {
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    width: 200px;
+    height: 200px;
+    background-image: url(/images/gif폭죽.gif);
+    background-repeat: no-repeat;
+}
+.mainPage .acc5 {
+    position: absolute;
+    top: 700px;
+    right: 400px;
+    width: 200px;
+    height: 200px;
+    background-image: url(/images/gif폭죽.gif);
+    background-repeat: no-repeat;
+}
+.mainPage .acc6 {
+    position: absolute;
+    top: 450px;
+    right: 100px;
+    width: 100px;
+    height: 100px;
+    background-image: url(/images/arrow2.gif);
+    background-repeat: no-repeat;
+}
